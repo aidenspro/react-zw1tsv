@@ -1,0 +1,92 @@
+h1, p {
+  font-family: Lato;
+}
+
+html {
+  background-color: rgb(104, 103, 103);
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+}
+.buttonContainerflex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.buttonContainergrid{
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; 
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.animeButtons{
+  text-align: center;
+}
+
+
+
+/***************Tab Container****************************/
+
+.tabheaders{
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-size: 30px;
+  background: #333;
+  color: blanchedalmond;
+  border-right: 1px solid rgb(0, 0, 0);
+  border-top: 3px solid rgb(0, 0, 0);
+}
+
+
+.active{
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-size: 30px;
+  background: #333;
+  color: blanchedalmond;
+  border-right: 1px solid rgb(0, 0, 0);
+  border-top: 3px solid rgb(247, 65, 65);
+  border-left: 3px solid rgb(247, 65, 65);
+}
+
+.buttonoptions{
+  display: flexbox;
+  text-align: center;
+  color: aliceblue;
+  min-height: 400px;
+  background: #333;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.motionoptions{text-align: center;
+  display: flex;
+  color: aliceblue;
+  min-height: 400px;
+  background: rgb(70, 57, 57);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/***************Motions**********************/
+
+.qcf{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background: no-repeat;
+  background-image: url("https://static.wikia.nocookie.net/streetfighter/images/3/32/Arcade_Stick_QCF.png/revision/latest/scale-to-width-down/24?cb=20160609012317");
+
+}
