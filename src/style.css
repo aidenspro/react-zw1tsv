@@ -63,21 +63,43 @@ html {
 }
 
 .buttonoptions{
-  display: flexbox;
+  
   text-align: center;
   color: aliceblue;
   min-height: 400px;
   background: #333;
   margin-left: 10%;
   margin-right: 10%;
+  
 }
-.motionoptions{text-align: center;
+.motionoptions{
+
+  text-align: center;
   display: flex;
   color: aliceblue;
   min-height: 400px;
   background: rgb(70, 57, 57);
   margin-left: 10%;
   margin-right: 10%;
+  
+}
+
+.output {
+
+  background: rgb(87, 16, 16);
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  font-family: "Arial Black", Gadget, sans-serif;
+font-size: 25px;
+letter-spacing: -1px;
+word-spacing: -2.8px;
+color: #FFFFFF;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
 }
 
 /***************Motions**********************/
@@ -88,7 +110,8 @@ html {
   text-align: center;
   background: no-repeat;
   background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/Motions/qcf.PNG");
-
+  flex-grow: 1;
+  background-size:     cover;
 }
 .qcb{
   width: 80px;
@@ -96,7 +119,9 @@ html {
   text-align: center;
   background: no-repeat;
   background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/Motions/qcb.PNG");
-
+  flex-grow: 1;
+  background-size:     cover;
+  background-position: center center;   
 }
 
 .hcf{
@@ -105,7 +130,9 @@ html {
   text-align: center;
   background: no-repeat;
   background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/Motions/hcf.PNG");
-
+  flex-grow: 1;
+  background-size:     cover;
+  background-position: center center;   
 }
 
 .hcb{
@@ -114,7 +141,9 @@ html {
   text-align: center;
   background: no-repeat;
   background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/Motions/hcb.PNG");
-
+  flex-grow: 1;
+  background-size:     cover;
+  background-position: center center;   
 }
 
 .srk{
@@ -123,7 +152,9 @@ html {
   text-align: center;
   background: no-repeat;
   background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/Motions/srk.PNG");
-
+  flex-grow: 1;
+  background-size:     cover;
+  background-position: center center;   
 }
 
 
@@ -133,7 +164,9 @@ html {
   text-align: center;
   background: no-repeat;
   background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/Motions/forward.PNG");
-
+  flex-grow: 1;
+  background-size:     cover;
+  background-position: center center;   
 }
 
 .back{
@@ -142,7 +175,9 @@ html {
   text-align: center;
   background: no-repeat;
   background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/Motions/back.PNG");
-
+  flex-grow: 1;
+  background-size:     cover;
+  background-position: center center;   
 }
 .arcsys{
   width: 150px;
@@ -150,5 +185,7 @@ html {
   text-align: center;
   background: no-repeat;
   background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/Motions/arcsys.PNG");
-
+  flex-grow: 1;
+  background-size:     cover;
+  background-position: center center;   
 }
