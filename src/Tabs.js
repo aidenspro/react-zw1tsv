@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef, createRef } from 'react';
 import './style.css';
+import Motions from './Motions';
 
 export default function tabs(props) {
   const ref = useRef();
@@ -50,10 +51,7 @@ export default function tabs(props) {
           Tab3
         </button>
       </div>
-      <div className="buttonoptions">{title}
-      <div className="qcf"> QCF </div>
-      <div> QCF </div>
-      </div>
+      <Motions />
     </div>
   );
 }

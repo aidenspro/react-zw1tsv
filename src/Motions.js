@@ -8,7 +8,12 @@ export default function Motions(props) {
     <div>
       <div className="motionoptions">
       <div className="qcf"> </div>
-      </div>
+      <div className="qcb"> </div>
+      <div className="hcf"> </div>
+      <div className="hcb"> </div>
+      <div className="srk"> </div>
+      <div className="arcsys"> </div>
+</div>
     </div>
         )
 }

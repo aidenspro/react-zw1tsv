@@ -90,3 +90,65 @@ html {
   background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/Motions/qcf.PNG");
 
 }
+.qcb{
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  background: no-repeat;
+  background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/Motions/qcb.PNG");
+
+}
+
+.hcf{
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  background: no-repeat;
+  background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/Motions/hcf.PNG");
+
+}
+
+.hcb{
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  background: no-repeat;
+  background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/Motions/hcb.PNG");
+
+}
+
+.srk{
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  background: no-repeat;
+  background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/Motions/srk.PNG");
+
+}
+
+
+.forward{
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  background: no-repeat;
+  background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/Motions/forward.PNG");
+
+}
+
+.back{
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  background: no-repeat;
+  background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/Motions/back.PNG");
+
+}
+.arcsys{
+  width: 150px;
+  height: 80px;
+  text-align: center;
+  background: no-repeat;
+  background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/Motions/arcsys.PNG");
+
+}

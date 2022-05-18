@@ -8,7 +8,7 @@ export default function App() {
     <div>
       <h1 className="header">Fighting Game Notation Editor</h1>
       <Tabs />
-      <Motions />
+      
     </div>
   );
 }
