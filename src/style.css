@@ -83,10 +83,10 @@ html {
 /***************Motions**********************/
 
 .qcf{
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   text-align: center;
   background: no-repeat;
-  background-image: url("https://static.wikia.nocookie.net/streetfighter/images/3/32/Arcade_Stick_QCF.png/revision/latest/scale-to-width-down/24?cb=20160609012317");
+  background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/Motions/qcf.PNG");
 
 }
