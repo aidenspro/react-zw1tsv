@@ -189,3 +189,57 @@ text-transform: none;
   background-size:     cover;
   background-position: center center;   
 }
+
+
+/*----------------------------Buttons----------------------*/
+
+.punch{
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  background: no-repeat;
+  background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/buttons/punch.PNG");
+  flex-grow: 1;
+  background-size:     cover;
+  background-position: center center;   
+}
+.kick{
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  background: no-repeat;
+  background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/buttons/kick.PNG");
+  flex-grow: 1;
+  background-size:     cover;
+  background-position: center center;   
+}
+.slash{
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  background: no-repeat;
+  background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/buttons/slash.PNG");
+  flex-grow: 1;
+  background-size:     cover;
+  background-position: center center;   
+}
+.hslash{
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  background: no-repeat;
+  background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/buttons/hslash.PNG");
+  flex-grow: 1;
+  background-size:     cover;
+  background-position: center center;   
+}
+.dust{
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  background: no-repeat;
+  background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/buttons/dust.PNG");
+  flex-grow: 1;
+  background-size:     cover;
+  background-position: center center;   
+}
