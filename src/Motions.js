@@ -12,7 +12,7 @@ export default function Motions(props) {
   }
   return (
     <div>
-      
+      <div>
       <div className="motionoptions">
         <div className="qcf" onClick={() => addInputs(" 236") }> </div>
         <div className="qcb"> </div>
@@ -21,7 +21,16 @@ export default function Motions(props) {
         <div className="srk"> </div>
         <div className="arcsys"> </div>
       </div>
-
+      <div className="motionoptions">
+        
+        <div className="punch"> </div>
+        <div className="kick"> </div>
+        <div className="slash"> </div>
+        <div className="hslash"> </div>
+        <div className="dust"> </div>
+      </div>
+      </div>
+        
       <div className="output"> {output} </div>
     </div>
         )

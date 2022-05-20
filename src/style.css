@@ -77,6 +77,18 @@ html {
   text-align: center;
   display: flex;
   color: aliceblue;
+  padding-bottom: 5%;
+  background: rgb(70, 57, 57);
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}
+
+.buttonoptions{
+
+  text-align: center;
+  display: flex;
+  color: aliceblue;
   min-height: 400px;
   background: rgb(70, 57, 57);
   margin-left: 10%;
@@ -198,7 +210,7 @@ text-transform: none;
   height: 80px;
   text-align: center;
   background: no-repeat;
-  background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/buttons/punch.PNG");
+  background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/buttons/punch.png");
   flex-grow: 1;
   background-size:     cover;
   background-position: center center;   
@@ -208,7 +220,7 @@ text-transform: none;
   height: 80px;
   text-align: center;
   background: no-repeat;
-  background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/buttons/kick.PNG");
+  background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/buttons/kick.png");
   flex-grow: 1;
   background-size:     cover;
   background-position: center center;   
@@ -218,7 +230,7 @@ text-transform: none;
   height: 80px;
   text-align: center;
   background: no-repeat;
-  background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/buttons/slash.PNG");
+  background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/buttons/slash.png");
   flex-grow: 1;
   background-size:     cover;
   background-position: center center;   
@@ -228,7 +240,7 @@ text-transform: none;
   height: 80px;
   text-align: center;
   background: no-repeat;
-  background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/buttons/hslash.PNG");
+  background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/buttons/hslash.png");
   flex-grow: 1;
   background-size:     cover;
   background-position: center center;   
@@ -238,7 +250,7 @@ text-transform: none;
   height: 80px;
   text-align: center;
   background: no-repeat;
-  background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/buttons/dust.PNG");
+  background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/buttons/dust.png");
   flex-grow: 1;
   background-size:     cover;
   background-position: center center;   
