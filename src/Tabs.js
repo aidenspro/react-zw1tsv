@@ -31,7 +31,7 @@ export default function tabs(props) {
       <div className="buttonContainergrid">
         <button
           ref={ref}
-          className="tabheaders"
+          className="active"
           onClick={() => onClick(0, 'Tab1')}
         >
           Tab1

@@ -10,12 +10,7 @@ html {
   display: flex;
   justify-content: center;
 }
-.buttonContainerflex{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: space-between;
-}
+
 
 .buttonContainergrid{
   align-items: center;
@@ -30,9 +25,6 @@ html {
   margin-right: 10%;
 }
 
-.animeButtons{
-  text-align: center;
-}
 
 
 
@@ -72,7 +64,7 @@ html {
   background: rgb(70, 57, 57);
   margin-left: 10%;
   margin-right: 10%;
-  
+  justify-content: space-between;
 }
 
 .buttonoptions{
@@ -81,10 +73,11 @@ html {
   display: flex;
   color: aliceblue;
   padding-bottom: 5%;
-  background: rgb(70, 57, 57);
+  background: rgb(255, 255, 255);
   margin-left: 10%;
   margin-right: 10%;
-  
+  justify-content: space-between;
+
 }
 
 .otheroptions{
@@ -125,7 +118,6 @@ text-transform: none;
   text-align: center;
   background: no-repeat;
   background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/Motions/qcf.PNG");
-  flex-grow: 1;
   background-size:     cover;
 }
 .qcb{
@@ -134,7 +126,6 @@ text-transform: none;
   text-align: center;
   background: no-repeat;
   background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/Motions/qcb.PNG");
-  flex-grow: 1;
   background-size:     cover;
   background-position: center center;   
 }
@@ -145,7 +136,6 @@ text-transform: none;
   text-align: center;
   background: no-repeat;
   background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/Motions/hcf.PNG");
-  flex-grow: 1;
   background-size:     cover;
   background-position: center center;   
 }
@@ -156,7 +146,6 @@ text-transform: none;
   text-align: center;
   background: no-repeat;
   background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/Motions/hcb.PNG");
-  flex-grow: 1;
   background-size:     cover;
   background-position: center center;   
 }
@@ -167,7 +156,6 @@ text-transform: none;
   text-align: center;
   background: no-repeat;
   background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/Motions/srk.PNG");
-  flex-grow: 1;
   background-size:     cover;
   background-position: center center;   
 }
@@ -179,7 +167,6 @@ text-transform: none;
   text-align: center;
   background: no-repeat;
   background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/Motions/forward.PNG");
-  flex-grow: 1;
   background-size:     cover;
   background-position: center center;   
 }
@@ -190,7 +177,6 @@ text-transform: none;
   text-align: center;
   background: no-repeat;
   background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/Motions/back.PNG");
-  flex-grow: 1;
   background-size:     cover;
   background-position: center center;   
 }
@@ -200,7 +186,6 @@ text-transform: none;
   text-align: center;
   background: no-repeat;
   background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/Motions/arcsys.PNG");
-  flex-grow: 1;
   background-size:     cover;
   background-position: center center;   
 }
@@ -209,52 +194,52 @@ text-transform: none;
 /*----------------------------Buttons----------------------*/
 
 .punch{
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 85px;
   text-align: center;
   background: no-repeat;
   background-image: url("https://github.com/aidenspro/react-zw1tsv/blob/master/src/buttons/punch.png?raw=true");
-  flex-grow: 1;
+
   background-size:     cover;
   background-position: center center;   
 }
 .kick{
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 85px;
   text-align: center;
   background: no-repeat;
   background-image: url("https://github.com/aidenspro/react-zw1tsv/blob/master/src/buttons/kick.png?raw=true");
-  flex-grow: 1;
+
   background-size:     cover;
   background-position: center center;   
 }
 .slash{
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 85px;
   text-align: center;
   background: no-repeat;
   background-image: url("https://github.com/aidenspro/react-zw1tsv/blob/master/src/buttons/slash.png?raw=true");
-  flex-grow: 1;
+
   background-size:     cover;
   background-position: center center;   
 }
 .hslash{
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 85px;
   text-align: center;
   background: no-repeat;
   background-image: url("https://github.com/aidenspro/react-zw1tsv/blob/master/src/buttons/hslash.png?raw=trueg");
-  flex-grow: 1;
+
   background-size:     cover;
   background-position: center center;   
 }
 .dust{
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 85px;
   text-align: center;
   background: no-repeat;
   background-image: url("https://github.com/aidenspro/react-zw1tsv/blob/master/src/buttons/dust.png?raw=true");
-  flex-grow: 1;
+
   background-size:     cover;
   background-position: center center;   
 }
