@@ -241,3 +241,14 @@ text-transform: none;
   
   background-position: center center;   
 }
+
+.delay{
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  background: no-repeat;
+  background-image: url("https://stackblitz.com/files/react-zw1tsv/github/aidenspro/react-zw1tsv/master/src/buttons/delay.png");
+  flex-grow: 1;
+  
+  background-position: center center;   
+}

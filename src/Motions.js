@@ -31,8 +31,9 @@ export default function Motions(props) {
 
       <div className="otheroptions">
         <div className="cancel" onClick={() => addInputs(" x ") } > </div>
+        <div className="delay" onClick={() => addInputs(" (...) ") } > </div>
         <div className="link" onClick={() => addInputs(" → ") } > </div>
-        <div className="delay" onClick={() => addInputs(" (..) ") } > </div>
+        
       </div>
       </div>
         
