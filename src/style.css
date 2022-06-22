@@ -3,7 +3,7 @@ h1, p {
 }
 
 html {
-  background-color: rgb(104, 103, 103);
+  background-color: rgb(255, 255, 255);
 }
 
 .header{
@@ -30,38 +30,14 @@ html {
 
 /***************Tab Container****************************/
 
-.tabheaders{
-  text-align: left;
-  padding-top: 10px;
-  padding-bottom: 30px;
-  font-size: 30px;
-  background: #333;
-  color: blanchedalmond;
-  border-right: 1px solid rgb(0, 0, 0);
-  border-top: 3px solid rgb(0, 0, 0);
-}
-
-
-.active{
-  text-align: left;
-  padding-top: 10px;
-  padding-bottom: 30px;
-  font-size: 30px;
-  background: #333;
-  color: blanchedalmond;
-  border-right: 1px solid rgb(0, 0, 0);
-  border-top: 3px solid rgb(247, 65, 65);
-  border-left: 3px solid rgb(247, 65, 65);
-}
-
 
 .motionoptions{
 
   text-align: center;
   display: flex;
-  color: aliceblue;
+
   padding-bottom: 5%;
-  background: rgb(70, 57, 57);
+
   margin-left: 10%;
   margin-right: 10%;
   justify-content: space-between;
@@ -71,9 +47,9 @@ html {
 
   text-align: center;
   display: flex;
-  color: aliceblue;
+
   padding-bottom: 5%;
-  background: rgb(255, 255, 255);
+
   margin-left: 10%;
   margin-right: 10%;
   justify-content: space-between;
@@ -84,9 +60,9 @@ html {
 
   text-align: center;
   display: flex;
-  color: aliceblue;
+
   padding-bottom: 5%;
-  background: rgb(70, 57, 57);
+
   margin-left: 10%;
   margin-right: 10%;
   
@@ -94,7 +70,7 @@ html {
 
 .output {
 
-  background: rgb(87, 16, 16);
+  
   margin-left: 10%;
   margin-right: 10%;
   text-align: center;
@@ -102,7 +78,7 @@ html {
 font-size: 25px;
 letter-spacing: -1px;
 word-spacing: -2.8px;
-color: #FFFFFF;
+color: #000000;
 font-weight: normal;
 text-decoration: none;
 font-style: normal;
